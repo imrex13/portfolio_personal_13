@@ -6,22 +6,39 @@ export default function Skills() {
   const skillsRef = useScrollAnimation()
 
   const skillCategories = [
-    {
-      category: "Backend",
-      skills: ["Python", "Node.js", "FastAPI", "Django", "Express", "GraphQL", "REST APIs"],
-    },
+ {
+  category: "Backend",
+  skills: [
+    "Python",
+    "Node.js",
+    "FastAPI",
+    "Express",
+    "REST APIs",
+    "Authentication & Authorization",
+    "API Design & Validation",
+  ],
+},
     {
       category: "Databases",
       skills: ["PostgreSQL", "Redis", "MongoDB", "MySQL", "SQLite"],
     },
-    {
-      category: "DevOps",
-      skills: ["Docker", "AWS", "CI/CD", "Nginx", "Linux", "Git"],
-    },
-    {
-      category: "AI / ML",
-      skills: ["PyTorch", "OpenCV", "ONNX", "OpenAI API", "Hugging Face"],
-    },
+  {
+  category: "DevOps & Tooling",
+  skills: ["Docker", "AWS", "Nginx", "Git",],
+},
+
+   {
+  category: "AI / ML",
+  skills: [
+    "PyTorch",
+    "OpenCV",
+    "Large Language Models (LLMs)",
+    "RAG Systems",
+    "Vector Databases (FAISS, Chroma)",
+    "ML Pipelines",
+  ],
+},
+
   ]
 
   return (
