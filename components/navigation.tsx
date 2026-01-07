@@ -35,7 +35,7 @@ export default function Navigation() {
             href="#home"
             className="text-xl font-mono font-semibold text-[#5eead4] hover:text-[#2dd4bf] transition-colors"
           >
-            {"<Rex />"}
+            {"<Raghu />"}
           </Link>
           <div className="flex items-center gap-8">
             {navItems.map((item) => (

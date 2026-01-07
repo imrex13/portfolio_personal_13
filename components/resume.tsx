@@ -6,6 +6,15 @@ import { useScrollAnimation } from "@/hooks/use-scroll-animation"
 export default function Resume() {
   const resumeRef = useScrollAnimation()
 
+  const handleDownload = () => {
+    const link = document.createElement('a')
+    link.href = '/RaghuwordResume_v3_one_page.pdf'
+    link.download = 'RaghuwordResume_v3_one_page.pdf'
+    document.body.appendChild(link)
+    link.click()
+    document.body.removeChild(link)
+  }
+
   return (
     <section id="resume" className="relative py-32 px-6">
       <div className="max-w-7xl mx-auto">
@@ -18,7 +27,10 @@ export default function Resume() {
             Detailed overview of my experience, projects, technical skills, and achievements in backend engineering and
             system design
           </p>
-          <button className="inline-flex items-center gap-3 px-8 py-4 bg-[#5eead4] text-[#0b0e14] font-semibold rounded-lg hover:bg-[#2dd4bf] hover:shadow-lg hover:shadow-[#5eead4]/20 transition-all hover:-translate-y-0.5">
+          <button 
+            onClick={handleDownload}
+            className="inline-flex items-center gap-3 px-8 py-4 bg-[#5eead4] text-[#0b0e14] font-semibold rounded-lg hover:bg-[#2dd4bf] hover:shadow-lg hover:shadow-[#5eead4]/20 transition-all hover:-translate-y-0.5"
+          >
             <Download className="w-5 h-5" />
             Download Resume
           </button>
