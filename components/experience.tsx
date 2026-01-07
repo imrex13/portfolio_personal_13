@@ -6,32 +6,49 @@ export default function Experience() {
   const experienceRef = useScrollAnimation()
 
   const experiences = [
+    
+  {
+  role: "Backend and Machine Learning Intern",
+  company: "Beaver Health AI",
+  period: "Sep 2025 - Dec 2025",
+  problem: "Building backend systems for an AI-driven medical triage platform",
+  systems: [
+    "Developed backend APIs for patient and doctor workflows, including authentication, report submission, and triage history retrieval",
+    "Integrated a pre-trained AI inference service via REST APIs to process patient inputs and generate medical triage reports",
+    "Designed role-based access control for patients and doctors to securely view reports and medical data",
+    "Worked with MongoDB schemas and API validation to ensure reliable data flow across the system"
+  ],
+  impact: "Enabled a functional end-to-end medical triage workflow used for internal product validation"
+}
+,
+ {
+  role: "Founder & Backend Engineer",
+  company: "RexinTech",
+  period: "Jan 2025 - June 2025",
+  problem: "Building scalable backend systems for campus-scale navigation and AI-driven applications",
+  systems: [
+    "Designed and implemented backend services for a 3D campus navigation platform using GeoJSON-based map data",
+    "Built REST APIs for route computation, location data access, and system configuration",
+    "Handled database design, API architecture, and deployment on cloud infrastructure",
+    "Led technical decision-making and documentation for system design and backend workflows"
+  ],
+  impact: "Successfully developed a working prototype and tested in real environments"
+},
+
     {
-      role: "Founder & Backend Engineer",
-      company: "RexinTech",
-      period: "2023 - Present",
-      problem: "Building scalable AI and system solutions for startups",
-      systems: [
-        "Architected and deployed multiple production systems serving 10k+ users",
-        "Built AI-powered platforms with real-time processing capabilities",
-        "Designed fault-tolerant architectures with 99.9% uptime",
-        "Led technical decisions for database design, API architecture, and DevOps",
-      ],
-      impact: "Secured DST funding for flagship product, reached production scale",
-    },
-    {
-      role: "Backend Engineer",
-      company: "Beaver Health AI",
-      period: "2022 - 2023",
-      problem: "Building healthcare data processing pipelines at scale",
-      systems: [
-        "Developed HIPAA-compliant data processing pipelines handling 1M+ records",
-        "Optimized database queries reducing API response time by 60%",
-        "Implemented distributed caching strategy improving throughput 3x",
-        "Built automated testing framework achieving 90%+ code coverage",
-      ],
-      impact: "Reduced infrastructure costs by 40% while improving performance",
-    },
+  role: "Machine Learning Intern",
+  company: "Avatar Robotix",
+  period: "July 2024 - Jan 2025",
+  problem: "Applying computer vision models for real-time robotic perception",
+  systems: [
+    "Developed computer vision pipelines for object detection and facial landmark tracking",
+    "Worked with real-time video streams to preprocess input data and optimize inference speed",
+    "Collaborated with the engineering team to integrate ML models into robotic control workflows",
+    "Improved model reliability through experimentation, tuning, and validation"
+  ],
+  impact: "Contributed to improved perception accuracy and smoother real-time robotic navigation"
+},
+
   ]
 
   return (
