@@ -9,11 +9,11 @@ export default function Education() {
     {
       degree: "Bachelor of Science (Computer Science)",
       field: "Artificial Intelligence & Data Science",
-      institution: "Gobi Arts & Science Collge",
+      institution: "Gobi Arts & Science College",
       period: "2023 - 2026",
      achievements: [
-  "Currently pursuing 3rd year with a CGPA of ~8.3",
-  "Built and shipped multiple full-stack and backend-heavy projects as part of project-based learning",
+  "Currently pursuing 3rd year with a percentage of 83 ",
+  "Built multiple full-stack and backend-heavy projects as part of project-based learning",
   "Worked extensively with REST APIs, databases, authentication, and system design fundamentals",
   "Collaborated in team projects, handling backend architecture and API design responsibilities",
 ],
