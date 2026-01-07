@@ -7,22 +7,23 @@ export default function Education() {
 
   const education = [
     {
-      degree: "Bachelor of Technology",
-      field: "Computer Science and Engineering",
-      institution: "University Name",
-      period: "2019 - 2023",
-      achievements: [
-        "Graduated with honors, maintaining 8.5+ GPA",
-        "Led multiple team projects on distributed systems and web applications",
-        "Published research paper on machine learning optimization",
-      ],
+      degree: "Bachelor of Science (Computer Science)",
+      field: "Artificial Intelligence & Data Science",
+      institution: "Gobi Arts & Science Collge",
+      period: "2023 - 2026",
+     achievements: [
+  "Currently pursuing 3rd year with a CGPA of ~8.3",
+  "Built and shipped multiple full-stack and backend-heavy projects as part of project-based learning",
+  "Worked extensively with REST APIs, databases, authentication, and system design fundamentals",
+  "Collaborated in team projects, handling backend architecture and API design responsibilities",
+],
     },
     {
       degree: "Higher Secondary Education",
-      field: "Science (Physics, Chemistry, Mathematics)",
-      institution: "School Name",
-      period: "2017 - 2019",
-      achievements: ["Scored 95%+ in board examinations", "Participated in national level coding competitions"],
+      field: "Arts (Commerce, Economics, Business Mathematics)",
+      institution: "Bishop Ubgaraswamy Higher Secondary School",
+      period: "2021 - 2023",
+      achievements: ["Scored 89%+ in board examinations"],
     },
   ]
 
